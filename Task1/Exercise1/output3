@@ -1,0 +1,23 @@
+
+Starting execution for my_scalar.c
+
+Enter 1 for user typed inputs,
+2 for file input (automatically chosen if the program runs with an input file ),
+or any other key to exit 
+
+Please enter a number, which will determine a size (dimension) of 2 integer vectors, then enter the values of the vectors
+
+What is the size (dimension) of the vectors? 
+
+Please enter the 6 values of the 1st vector
+
+Please enter the 6 values of the 2st vector 
+
+The vectors you entered: 
+
+Vector 1: (1 ,0 ,3 ,2 ,4 ,3)
+
+Vector 2: (1 ,0 ,-4 ,3 ,-5 ,3)
+
+The scalar product of the two vectors is: 
+-16
