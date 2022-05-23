@@ -1,0 +1,27 @@
+
+Please enter the command name first, then the arguments for the command.
+ follow this template:
+read_mat MAT_X, num1, num2, num3, num4, lastnum
+print_mat MAT_X
+add_mat MAT_X, MAT_Y, MAT_Z
+sub_mat MAT_X, MAT_Y, MAT_Z
+mul_mat MAT_X, MAT_Y, MAT_Z
+mul_scalar MAT_X, num, MAT_Y
+trans_mat MAT_X, MAT_Y
+stop
+
+Please enter your command and arguments:
+read_mat MAT_A, 1, 2, 3, 4.gf,invalid arguments, one or more of them are non-real numbers
+
+Please enter your command and arguments:
+Undefined command name
+
+Please enter your command and arguments:
+Undefined command name
+
+Please enter your command and arguments:
+print_mat Undefined matrix name
+
+Please enter your command and arguments:
+
+The file has ended, BYE BYE!

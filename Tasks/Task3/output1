@@ -1,0 +1,144 @@
+
+Please enter the command name first, then the arguments for the command.
+ follow this template:
+read_mat MAT_X, num1, num2, num3, num4, lastnum
+print_mat MAT_X
+add_mat MAT_X, MAT_Y, MAT_Z
+sub_mat MAT_X, MAT_Y, MAT_Z
+mul_mat MAT_X, MAT_Y, MAT_Z
+mul_scalar MAT_X, num, MAT_Y
+trans_mat MAT_X, MAT_Y
+stop
+
+Please enter your command and arguments:
+read_mat MAT_A, 1, 2, 3, 4, 5.5, 6.575
+Please enter your command and arguments:
+print_mat MAT_A
+1.00       2.00       3.00       4.00       
+5.50       6.58       0.00       0.00       
+0.00       0.00       0.00       0.00       
+0.00       0.00       0.00       0.00       
+
+
+Please enter your command and arguments:
+read_mat MAT_B, -3.5, -10, -5
+Please enter your command and arguments:
+print_mat MAT_B
+-3.50       -10.00       -5.00       0.00       
+0.00       0.00       0.00       0.00       
+0.00       0.00       0.00       0.00       
+0.00       0.00       0.00       0.00       
+
+
+Please enter your command and arguments:
+add_mat MAT_A, MAT_B, MAT_C
+Please enter your command and arguments:
+print_mat MAT_C
+-2.50       -8.00       -2.00       4.00       
+5.50       6.58       0.00       0.00       
+0.00       0.00       0.00       0.00       
+0.00       0.00       0.00       0.00       
+
+
+Please enter your command and arguments:
+sub_mat MAT_C, MAT_A, MAT_D
+Please enter your command and arguments:
+print_mat MAT_D
+-3.50       -10.00       -5.00       0.00       
+0.00       0.00       0.00       0.00       
+0.00       0.00       0.00       0.00       
+0.00       0.00       0.00       0.00       
+
+
+Please enter your command and arguments:
+trans_mat MAT_D, MAT_D
+Please enter your command and arguments:
+print_mat MAT_D
+-3.50       0.00       0.00       0.00       
+-10.00       0.00       0.00       0.00       
+-5.00       0.00       0.00       0.00       
+0.00       0.00       0.00       0.00       
+
+
+Please enter your command and arguments:
+read_mat MAT_C, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+Please enter your command and arguments:
+print_mat MAT_C
+0.00       0.00       0.00       0.00       
+0.00       0.00       0.00       0.00       
+0.00       0.00       0.00       0.00       
+0.00       0.00       0.00       0.00       
+
+
+Please enter your command and arguments:
+read_mat MAT_A, 1, 2, 7, 2, 1, 2, 1, 2, 1, 2, 5, 2, 1, 2, 1, 5
+Please enter your command and arguments:
+read_mat MAT_B, 1, 2, 4, 2, 2, 1, 4, 1, 4, 1, 1, 1, 3, 3, 4, 3
+Please enter your command and arguments:
+print_mat MAT_A
+1.00       2.00       7.00       2.00       
+1.00       2.00       1.00       2.00       
+1.00       2.00       5.00       2.00       
+1.00       2.00       1.00       5.00       
+
+
+Please enter your command and arguments:
+print_mat MAT_B
+1.00       2.00       4.00       2.00       
+2.00       1.00       4.00       1.00       
+4.00       1.00       1.00       1.00       
+3.00       3.00       4.00       3.00       
+
+
+Please enter your command and arguments:
+mul_mat MAT_A, MAT_B, MAT_C
+Please enter your command and arguments:
+print_mat MAT_C
+39.00       17.00       27.00       17.00       
+15.00       11.00       21.00       11.00       
+31.00       15.00       25.00       15.00       
+24.00       20.00       33.00       20.00       
+
+
+Please enter your command and arguments:
+mul_scalar MAT_C, 2.000000, MAT_C
+Please enter your command and arguments:
+print_mat MAT_C
+78.00       34.00       54.00       34.00       
+30.00       22.00       42.00       22.00       
+62.00       30.00       50.00       30.00       
+48.00       40.00       66.00       40.00       
+
+
+Please enter your command and arguments:
+print_mat MAT_F
+0.00       0.00       0.00       0.00       
+0.00       0.00       0.00       0.00       
+0.00       0.00       0.00       0.00       
+0.00       0.00       0.00       0.00       
+
+
+Please enter your command and arguments:
+read_mat MAT_E, 1, 2, 4, 2, 2, 1, 4, 1, 4, 1, 1, 1, 3, 3, 4, 3,
+Please enter your command and arguments:
+Undefined command name
+
+Please enter your command and arguments:
+print_mat MAT_B
+1.00       2.00       4.00       2.00       
+2.00       1.00       4.00       1.00       
+4.00       1.00       1.00       1.00       
+3.00       3.00       4.00       3.00       
+
+
+Please enter your command and arguments:
+print_mat MAT_E
+1.00       2.00       4.00       2.00       
+2.00       1.00       4.00       1.00       
+4.00       1.00       1.00       1.00       
+3.00       3.00       4.00       3.00       
+
+
+Please enter your command and arguments:
+stop 
+You chose to stop, BYE BYE!

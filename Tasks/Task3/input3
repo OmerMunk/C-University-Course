@@ -1,0 +1,3 @@
+read_mat MAT_A 1, 2, 3, 4.gf, 5, 7, 9.032, 50000
+print_mah MAT_A
+print_mat MAT_H
